@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<title>Image Zoom.js</title>
+
+<style>
+*, *::before, *::after {box-sizing: border-box; margin: 0; padding: 0;}
+html {height: 100%; font-family: sans-serif; font-size: 100%; background: #202b38; color: #fff;} a {color: #809fff;}
+body {min-height: 100vh; width: min(100%, 50rem); margin-inline: auto; margin-block-end: 8rem; padding-inline: 1rem; background-color: #001829;
+font-size: clamp(1.1rem, 1.06rem + 0.2vw, 1.3rem); line-height: 1.5;}
+h1 {text-align: center; margin-block-end: 1rem;}
+p {padding: .5rem 1rem;}
+section {display: flex; gap: 2rem;}
+ img {
+  width: 300px;
+  height: 200px;
+}
+</style>
+  <link rel="stylesheet" href="css/zoom.css">
+</head>
+
+<body translate=no>
+<h1>Image Zoom.js</h1>
+<section>
+<img src="img/trees.jpg" data-action="zoom" class="">
+<img src="img/palm.jpg" data-action="zoom">
+</section>
+<p></p>
+
+  <script src="js/zoom.min.js"></script>
+
+
+</body>
+</html>
