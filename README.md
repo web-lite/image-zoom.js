@@ -1,3 +1,3 @@
-# spark
+image-zoom.js
 
-https://web-lite.github.io/spark/
+Demo: https://web-lite.github.io/image-zoom.js/image-zoom.js.htm
