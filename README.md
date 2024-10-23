@@ -1,4 +1,4 @@
-image-zoom.js
+# image-zoom.js
 
 Fork zoom.js v3.1.0  by Nishanth's https://github.com/nishanths/zoom.js/tree/master
 
